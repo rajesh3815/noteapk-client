@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const staticUrl = "http://localhost:3000";
+const staticUrl = "https://noteapk-backend.onrender.com";
 export const addGroup = async (heading, color) => {
   try {
     const data = await axios.post(`${staticUrl}/api/v1/heading/createHeading`, {
